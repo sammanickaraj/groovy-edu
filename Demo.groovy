@@ -7,5 +7,7 @@ public class Demo {
         NewClass ab = new NewClass();
         ab.setX(100);
         println(ab.getX());
+        println(ab.myCalc(1, 2));
+        println(ab.myString("Hi Sam"));
     }
 }
